@@ -35,68 +35,65 @@ This project is a modular, AI-powered sales assistant suite built with **Streaml
    ```bash
    git clone https://github.com/your-username/your-repo-name.git
    cd your-repo-name
-Install dependencies
+   ```
 
-bash
-Copy
-Edit
-pip install -r requirements.txt
-Run an app
+2. **Install dependencies**
+   ```bash
+   pip install -r requirements.txt
+   ```
 
-bash
-Copy
-Edit
-streamlit run interface2.py
-or
+3. **Run an app**
+   ```bash
+   streamlit run interface2.py
+   ```
+   or
+   ```bash
+   streamlit run chat.py
+   ```
 
-bash
-Copy
-Edit
-streamlit run chat.py
-📦 Required Files for Chatbot
-Before running chat.py, ensure these files exist in the project directory:
+---
 
-file.txt – Generated deal-closing script (created by interface2.py)
+## 📦 Required Files for Chatbot
 
-info.txt – Deal metadata (industry, buyer persona, tone, etc.)
+Before running `chat.py`, ensure these files exist in the project directory:
 
-Product_data.txt – Product-related information
+- `file.txt` – Generated deal-closing script (created by `interface2.py`)
+- `info.txt` – Deal metadata (industry, buyer persona, tone, etc.)
+- `Product_data.txt` – Product-related information
+- `customer_data.txt` – Customer background information
 
-customer_data.txt – Customer background information
+---
 
-🔍 Features
-✅ Framework Selector: Choose from methods like Assumptive, Consultative, Urgency, etc.
+## 🔍 Features
 
-🧠 AI-Driven Script Generator: Personalized scripts using GPT-4o
+- ✅ **Framework Selector**: Choose from methods like Assumptive, Consultative, Urgency, etc.
+- 🧠 **AI-Driven Script Generator**: Personalized scripts using GPT-4o
+- 📊 **Flowchart Visualizer**: Converts conversation logic into a downloadable diagram
+- 🤖 **Sales Chatbot**: Live, realistic conversation simulation with objection handling and correction
+- 📎 **PDF Export**: Branded PDF including the script and visual flow
 
-📊 Flowchart Visualizer: Converts conversation logic into a downloadable diagram
+---
 
-🤖 Sales Chatbot: Live, realistic conversation simulation with objection handling and correction
+## 💡 Technologies Used
 
-📎 PDF Export: Branded PDF including the script and visual flow
+- [Streamlit](https://streamlit.io/)
+- [OpenAI API](https://openai.com/)
+- [Pydantic AI](https://github.com/)
+- [Graphviz](https://graphviz.org/)
+- [Pillow (PIL)](https://python-pillow.org/)
+- [ReportLab](https://www.reportlab.com/)
 
-💡 Technologies Used
-Streamlit
+---
 
-OpenAI API
+## 🧑‍💻 Author
 
-Pydantic AI
-
-Graphviz
-
-Pillow (PIL)
-
-ReportLab
-
-🧑‍💻 Author
-Racha Zayni
-Electrical and Technology Engineering Student
+**Racha Zayni**  
+Electrical and Technology Engineering Student  
 Passionate about AI, automation, and human-centered sales enablement.
 
-📜 License
-This project is for academic and internal use only.
-For commercial licensing or customization, please contact the author.
+---
 
-yaml
-Copy
-Edit
+## 📜 License
+
+This project is for academic and internal use only.  
+For commercial licensing or customization, please contact the author.
